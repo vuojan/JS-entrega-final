@@ -1,0 +1,94 @@
+[
+    {
+        "input": "Tierra Del Fuego",
+        "value": 1323
+    },
+    {
+        "input": "Santa Cruz",
+        "value": 1323
+    },
+    {
+        "input": "Chubut",
+        "value": 1323
+    },
+    {
+        "input": "Rio Negro",
+        "value": 1323
+    },
+    {
+        "input": "Mendoza",
+        "value": 1744
+    },
+    {
+        "input": "Neuquen",
+        "value": 1323
+    },
+    {
+        "input": "San Juan",
+        "value": 1744
+    },
+    {
+        "input": "San Luis",
+        "value": 1744
+    },
+    {
+        "input": "La Rioja",
+        "value": 1744
+    },
+    {
+        "input": "Buen Aires",
+        "value": 1551
+    },
+    {
+        "input": "Cordoba",
+        "value": 1551
+    },
+    {
+        "input": "Entre Rios",
+        "value": 1551
+    },
+    {
+        "input": "Santa Fe",
+        "value": 1551
+    },
+    {
+        "input": "La Pampa",
+        "value": 1551
+    },
+    {
+        "input": "Catamarca",
+        "value": 1779
+    },
+    {
+        "input": "Jujuy",
+        "value": 1779
+    },
+    {
+        "input": "Tucuman",
+        "value": 1779
+    },
+    {
+        "input": "Salta",
+        "value": 1779
+    },
+    {
+        "input": "Santiago Del Estero",
+        "value": 1779
+    },
+    {
+        "input": "Formosa",
+        "value": 1573
+    },
+    {
+        "input": "Chaco",
+        "value": 1573
+    },
+    {
+        "input": "Corrientes",
+        "value": 1573
+    },
+    {
+        "input": "Misiones",
+        "value": 1573
+    }
+]

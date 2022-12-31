@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background: rgba(255,179,71,0.1);
+}
+
+#navegador {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 0;
+  }
+
+#navegador div a img{
+    height: 100px;
+}
+
+#navegador div.navbar-nav a {
+    font-size: 1rem;
+    color: black;
+    margin: 0 20px;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+
+#navegador div.navbar-nav a:hover {
+    color: orange;
+}
+
+header{
+    position: relative;
+    overflow: hidden; 
+    background: url(../img/solar-panels-header-1.png) center no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-bottom: orange 5px solid;
+
+}
+
+header figcaption{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 30px 50px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+    font-weight: 400;
+}
+
+header figcaption div{
+    font-weight: 700;
+    color: orange;
+    font-size: 3.5rem;
+}
+
+.main--tittle{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: 50px;
+    
+}
+
+.main--text{
+    width: 30%;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.main--text strong{
+    color: orange;
+    font-weight: 700;
+    font-size: 1.7rem; 
+}
+
+.flex--main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: currentColor;
+    padding: 20px;
+    border-top: solid 5px orange;
+    border-bottom: solid 5px orange;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    background-color: currentColor;
+    flex-wrap: wrap;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    border: solid 3px orange;
+    margin: 40px 20px;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+article img{
+    width: 65px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+article h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+article p{
+    margin-bottom: auto;
+    font-weight: 600;
+    color: white;
+}
+
+.flechaCenter{
+    text-align: center;
+}
+
+.flechaCenter--size{
+    width: 100px;
+}
+
+
+.formsection{
+    margin-bottom: 100px;
+}
+
+.form{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    padding: 50px 50px;
+    background-color: currentColor;
+    border-radius: 15px;
+    border: solid 5px orange;
+}
+
+.form h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.form input,select{
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    color: dimgray;
+}
+
+.form select option{
+    margin-bottom: 50px;
+}
+
+.form button{
+    margin-top: 40px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: rgba(255,179,71,1);
+    color: black;
+    font-weight: 600;
+    width: 300px;
+    font-size:  1.1rem;
+    transition-duration: 0.4s; 
+}
+
+.form button:hover{
+    background-color: rgba(255,179,71,0.9); 
+    color: white; 
+}
+
+.hiddenForm{
+    width: 300px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.hiddenForm--displaynone{
+    display: none;
+}
+
+.hiddenForm__inputs{
+    background-color: white;
+    width: 100px !important;
+}
+
+.hiddenForm__span{
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.hiddenForm__button{
+    text-align: center;
+}
+
+.confirmBtn{
+    background-color: orange !important;
+    border: none !important;
+    color: black !important;
+    width: 100px;
+    font-size: 1.2rem !important;
+}
+
+.confirmBtn:hover{
+color: white !important;
+}
+
+.disable{
+    cursor: not-allowed;
+    pointer-events: none;
+ }
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 5px 5px;
+  }
+  footer h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 15px;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  footer a img {
+    margin: 15px 15px;
+  }
+  footer p {
+    color: white;
+    font-weight: 200;
+    line-height: normal;
+    font-size: 1.1rem;
+    margin-top: 15px;
+  }
